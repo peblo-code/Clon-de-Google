@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: inherit;
+}
+
+.container {
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: black;
+    text-decoration: none;
+    margin-right: .5em;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    justify-content: flex-end;
+}
+
+header ul li {
+    color: black;
+}
+
+header ul li a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.middle {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 6em 2.5em 2.5em;
+    grid-template-columns: 28em;
+    grid-gap: 2em;
+}
+
+.middle .logo {
+    display: flex;
+    justify-content: inherit;
+}
+
+.middle .input {
+    display: flex;
+    justify-content: inherit;
+}
+
+.middle .button {
+    display: flex;
+    justify-content: inherit;
+}
+
+footer {
+    display: grid;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer .country {
+    display: flex;
+    align-items: center;
+}
+
+footer .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
